@@ -1,0 +1,151 @@
+/* ================================================= MOBILE 👇 ========================================= */
+@media screen and (min-width: 320px) {
+  .top-sellers {
+    justify-content: center;
+    padding-left: 20px;
+  }
+  .top-sellers-title {
+    color: var(--color-black);
+    font-family: var(--font-montserrat);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.2 em;
+    letter-spacing: -0.6px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 32px;
+  }
+  .top-sellers-img {
+    border-radius: 15px;
+    width: 355px;
+  }
+  .top-sellers-title-top {
+    color: var(--carrot-orange-color);
+  }
+
+  .top-sellers-img-last {
+    display: none;
+  }
+
+  .top-sellers-text-mobile {
+    color: var(--color-black);
+    font-family: var(--font-montserrat);
+    font-size: var(--description-font-size);
+    font-weight: 400;
+    line-height: 1.28em;
+    letter-spacing: -0.28px;
+    margin-top: 20px;
+    margin-bottom: 32px;
+    padding-right: 29px;
+  }
+
+  .top-sellers-text-desktop {
+    display: none;
+  }
+
+  .top-sellers-button {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    margin-bottom: 72px;
+  }
+
+  .top-sellers-button-description {
+    color: var(--color-white);
+    background-color: var(--carrot-orange-color);
+    font-family: var(--font-montserrat);
+    font-size: var(--description-font-size);
+    font-weight: 600;
+    padding: 12px 28px;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+    /*/
+        width: 120;
+        height: 41px;
+        /*/
+  }
+  .button-wrapper {
+    padding-left: 127px;
+    margin-top: 20px;
+  }
+}
+
+/* ================================================= TABLET 👇 ========================================= */
+@media screen and (min-width: 768px) {
+  .top-sellers-title {
+    font-size: 24px;
+  }
+  .top-sellers-text-mobile {
+    display: none;
+  }
+
+  .top-sellers-title {
+    letter-spacing: -0.72px;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+
+  .top-sellers-images {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin: auto;
+  }
+
+  .top-sellers-img {
+    width: 344px;
+    height: 464px;
+  }
+
+  .top-sellers-img-last {
+    display: none;
+  }
+
+  .top-sellers-text-mobile {
+    display: none;
+  }
+
+  .top-sellers-description-button {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 40px;
+    margin-bottom: 100px;
+  }
+
+  .top-sellers-text-desktop {
+    display: flex;
+    width: 316px;
+  }
+
+  .top-sellers-button {
+    padding-top: 0;
+    margin-bottom: 72px;
+  }
+
+  .top-sellers-button-description {
+    font-size: 18px;
+    padding: 14px 40px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/* ================================================= DESKTOP 👇 ========================================= */
+@media screen and (min-width: 1200px) {
+  .top-sellers-img-last {
+    display: block;
+    border-radius: 15px;
+  }
+
+  .top-sellers-description-button {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}

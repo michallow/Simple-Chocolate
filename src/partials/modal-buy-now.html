@@ -1,0 +1,73 @@
+<!-- <button class="button-buy-now show-modal" data-modal-open>Buy now</button> TU JEST BUTTON POD MODAL-->  
+<div class="buy-now-modal-backdrop is-hidden" data-modal data-top-modal>
+    <div class="buy-now-modal">
+    <button type="button" class="close-btn" data-modal-close data-modla-top-close>
+        <svg class="modal-icon">
+            <use href="./images/icons.svg#icon-close"></use>
+        </svg>
+    </button>
+    <h1 class="header-buy-now"><span class="orange-txt">BUY</span> NOW</h1>
+    <ul class="product-list">
+        <li class="product-item">
+            <div class="milk-chocolate"></div>
+            <button class="button-product-weight">100 g</button>
+        </li>
+        <li class="product-item">
+            <div class="milk-chocolate"></div>
+            <button class="button-product-weight">200 g</button>
+        </li>
+        <li class="product-item">
+            <div class="milk-chocolate"></div>
+            <button class="button-product-weight">300 g</button>
+        </li>
+    </ul>
+    <form class="buy-form">
+        <div class="name-surname">
+        <div class="modal-form">
+            <label class="form-label" for="name">Personal information</label>
+            <div class="form-content">
+                <input class="form-input" type="text" name="name" id="name" placeholder="Name" required/>
+            </div>
+        </div>
+            <div class="modal-form">
+            <label class="form-label" for="surname"></label>
+            <div class="form-content">
+                <input class="form-input" type="text" name="surname" id="surname" placeholder="Surname" required/>
+            </div>
+        </div>
+        </div>
+        <div class="modal-form">
+            <label class="form-label" for="email">Email</label>
+            <div class="form-content">
+                <input class="form-input" type="email" name="email" id="email" placeholder="Enter your email" required />
+            </div>
+        </div>
+        <div class="modal-form">
+            <label class="form-label" for="phone">Phone</label>
+            <div class="form-content">
+                <input class="form-input card-number" type="number" name="phone" id="phone" placeholder="Phone number" required />
+                <span class="input-label">+380</span>
+                <svg class="modal-form-icon modal-form-icon-ukraine" width="32" height="24">
+                    <use href="./images/icons.svg#icon-flag"></use>
+                </svg>
+            </div>
+        </div>
+        <div class="modal-form">
+            <label class="form-label" for="card">Card number</label>
+            <div class="form-content">
+                <input class="form-input" type="text" name="card" id="card" placeholder="Enter card" required />
+                <svg class="modal-form-icon modal-form-icon-mastercard" width="44" height="30">
+                    <use href="./images/icons.svg#icon-mastercard"></use>
+                </svg>
+            </div>
+        </div>
+        <div class="modal-form">
+            <label class="form-label" for="user-comment">Comment</label>
+            <div class="form-content">
+                <textarea class="form-input textarea" id="user-comment" name="user-comment" placeholder="Enter text" required></textarea>
+            </div>
+        </div>
+        <div class="btn-placement"><button class="button-submit" type="submit">submit</button></div>
+    </form>
+</div>
+</div>

@@ -1,0 +1,144 @@
+:root {
+  --color-white: #ffffff;
+  --color-light-white: #ffffffb2;
+  --color-black: #111111;
+  --color-dark-purple: #1e1823;
+  --color-orange: #fd9222;
+  --color-light-orange: #fcf1e0;
+
+  /* -------- COLORS -------- */
+  --white-color: rgba(255, 255, 255);
+  --snow-color: #fafafa;
+  --linen-color: #fcf1e0;
+  --carrot-orange-color: #fd9222;
+  --eerie-black-color: #1e1823;
+  --smoky-black-color: #111;
+  --smoky-transparent-black-color: rgba(17, 17, 17, 0.1);
+
+  /* -------- FONTS --------  */
+  --font-montserrat: 'Montserrat', sans-serif;
+
+  /* -------- FONT SIZE --------  */
+  --description-font-size: 14px;
+  /* all */
+  --title-font-size: 24px;
+  /* desktop & tablet */
+  --mobile-title-font-size: 20px;
+  /* mobile */
+  --sub-title-font-size: 18px;
+  /* all */
+  --pop-up-font-size: 10px;
+  /* all */
+
+  /* -------- FONT WEIGHT -------- */
+  --logo-weight: 700;
+  --bold-weight: 600;
+  --medium-weight: 500;
+  --light-weight: 400;
+
+  /* -------- BREAKPOINTS -------- */
+  --mobile-breakpoint: 375px;
+  --tablet-breakpoint: 768px;
+  --desktop-breakpoint: 1200px;
+
+  /* -------- ANIMATIONS -------- */
+  --animation-duration: 300ms;
+}
+
+/* -------- RESET -------- */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: var(--font-montserrat);
+  scroll-behavior: smooth;
+}
+
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav ul {
+  list-style: none;
+}
+ul {
+  list-style: none;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+/* -------- STYLES -------- */
+html {
+  background: #fafafa;
+  min-width: 375px;
+}
+
+.container {
+  width: 375px;
+  margin: 0 auto;
+}
+.section-space {
+  margin-bottom: 72px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+    margin: 0 auto;
+  }
+  .section-space {
+    margin-bottom: 100px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .section-space {
+    margin-bottom: 128px;
+  }
+}
+
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}

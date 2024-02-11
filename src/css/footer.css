@@ -1,0 +1,283 @@
+/* -----------MOBILE----------*/
+@media screen and (max-width: 767px) {
+  .footer-background {
+    background-color: var(--eerie-black-color);
+    padding: 32px 20px;
+    min-width: 375px;
+  }
+  .footer-slogan {
+    color: var(--white-color);
+    font-family: var(--font-montserrat);
+    font-size: var(--title-font-size);
+    font-style: normal;
+    font-weight: var(--medium-weight);
+    line-height: 28px;
+    letter-spacing: -0.48px;
+    width: 300px;
+    height: 56px;
+    margin-bottom: 32px;
+  }
+  .footer-chocolate {
+    color: var(--carrot-orange-color);
+  }
+  .footer-contact-us {
+    color: var(--white-color);
+    font-family: var(--font-montserrat);
+    font-size: var(--description-font-size);
+    font-style: normal;
+    font-weight: var(--medium-weight);
+    line-height: 18px;
+    margin-bottom: 14px;
+  }
+  .footer-contact {
+    color: var(--white-color);
+    font-family: var(--font-montserrat);
+    font-size: var(--description-font-size);
+    font-style: normal;
+    font-weight: var(--light-weight);
+    line-height: 18px;
+    letter-spacing: -0.28px;
+  }
+  .footer-nav {
+    color: var(--white-color);
+    font-family: var(--font-montserrat);
+    font-size: var(--description-font-size);
+    font-style: normal;
+    font-weight: var(--medium-weight);
+    line-height: 16px;
+    letter-spacing: -0.28px;
+    scroll-behavior: smooth;
+  }
+
+  .footer-sm-flex {
+    display: flex;
+    gap: 14px;
+    list-style: none;
+  }
+
+  .footer-nav-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin-top: 32px;
+  }
+
+  .footer-container {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .footer-info {
+    display: flex;
+    gap: 113px;
+    margin-bottom: 32px;
+  }
+
+  .footer-tel-email {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    list-style: none;
+  }
+
+  .footer-svg {
+    stroke: var(--white-color);
+  }
+}
+
+/* -----------TABLET----------*/
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer-background {
+    background-color: var(--eerie-black-color);
+    padding: 50px 32px;
+  }
+  .footer-slogan {
+    color: var(--white-color);
+    font-family: var(--font-montserrat);
+    font-size: 28px;
+    font-style: normal;
+    font-weight: var(--medium-weight);
+    line-height: 34px;
+    letter-spacing: -0.56px;
+    width: 300px;
+    height: 68px;
+    margin-right: 124px;
+    margin-bottom: 54px;
+  }
+  .footer-chocolate {
+    color: var(--carrot-orange-color);
+  }
+  .footer-contact-us {
+    color: var(--white-color);
+    font-family: var(--font-montserrat);
+    font-size: var(--description-font-size);
+    font-style: normal;
+    font-weight: var(--medium-weight);
+    line-height: 18px;
+    margin-bottom: 14px;
+  }
+  .footer-contact {
+    color: var(--white-color);
+    font-family: var(--font-montserrat);
+    font-size: var(--description-font-size);
+    font-style: normal;
+    font-weight: var(--light-weight);
+    line-height: 18px;
+    letter-spacing: -0.28px;
+  }
+  .footer-nav {
+    color: var(--white-color);
+    font-family: var(--font-montserrat);
+    font-size: var(--description-font-size);
+    font-style: normal;
+    font-weight: var(--medium-weight);
+    line-height: 16px;
+    letter-spacing: -0.28px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    scroll-behavior: smooth;
+  }
+
+  .footer-nav:hover,
+  .footer-nav:focus {
+    color: var(--carrot-orange-color);
+  }
+
+  .footer-sm-flex {
+    display: flex;
+    gap: 18px;
+    list-style: none;
+  }
+
+  .footer-nav-flex {
+    display: flex;
+    gap: 24px;
+    margin-top: 24px;
+  }
+
+  .footer-container {
+    display: flex;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .footer-info {
+    display: flex;
+    gap: 50px;
+  }
+
+  .footer-tel-email {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    list-style: none;
+  }
+  .footer-svg {
+    stroke: var(--white-color);
+    width: 24px;
+    height: 24px;
+    transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .footer-svg:hover,
+  .footer-svg:focus {
+    stroke: var(--carrot-orange-color);
+  }
+}
+
+/* -----------DESKTOP----------*/
+@media screen and (min-width: 1200px) {
+  .footer-background {
+    background-color: var(--eerie-black-color);
+    padding: 50px 32px;
+  }
+  .footer-slogan {
+    color: var(--white-color);
+    font-family: var(--font-montserrat);
+    font-size: 28px;
+    font-style: normal;
+    font-weight: var(--medium-weight);
+    line-height: 34px;
+    letter-spacing: -0.56px;
+    width: 300px;
+    height: 68px;
+    margin-right: 543px;
+    margin-bottom: 62px;
+  }
+  .footer-chocolate {
+    color: var(--carrot-orange-color);
+  }
+  .footer-contact-us {
+    color: var(--white-color);
+    font-family: var(--font-montserrat);
+    font-size: var(--description-font-size);
+    font-style: normal;
+    font-weight: var(--medium-weight);
+    line-height: 18px;
+    margin-bottom: 14px;
+  }
+  .footer-contact {
+    color: var(--white-color);
+    font-family: var(--font-montserrat);
+    font-size: var(--description-font-size);
+    font-style: normal;
+    font-weight: var(--light-weight);
+    line-height: 18px;
+    letter-spacing: -0.28px;
+  }
+  .footer-nav {
+    color: var(--white-color);
+    font-family: var(--font-montserrat);
+    font-size: var(--description-font-size);
+    font-style: normal;
+    font-weight: var(--medium-weight);
+    line-height: 16px;
+    letter-spacing: -0.28px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    scroll-behavior: smooth;
+  }
+
+  .footer-nav:hover,
+  .footer-nav:focus {
+    color: var(--carrot-orange-color);
+  }
+
+  .footer-sm-flex {
+    display: flex;
+    gap: 18px;
+    list-style: none;
+  }
+
+  .footer-nav-flex {
+    display: flex;
+    gap: 24px;
+    margin-top: 24px;
+  }
+
+  .footer-container {
+    display: flex;
+    margin: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .footer-info {
+    display: flex;
+    gap: 63px;
+  }
+
+  .footer-tel-email {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    list-style: none;
+  }
+
+  .footer-svg {
+    stroke: var(--white-color);
+    width: 24px;
+    height: 24px;
+    transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .footer-svg:hover,
+  .footer-svg:focus {
+    stroke: var(--carrot-orange-color);
+  }
+}
